@@ -1,0 +1,16 @@
+.back-black,
+.back-yellow {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.back-black {
+    background-color: rgb(0,0,0);
+    color: #fff;
+}
+
+.back-yellow {
+    background-color: yellow;    
+}
+
+/*Otra opción para para agregar la familia de fuentes y tamaño compartido entre los dos elementos sería que compartan una clase adicional y agregarla en el archivo style.css*/
