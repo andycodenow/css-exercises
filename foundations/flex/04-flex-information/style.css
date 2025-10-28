@@ -1,12 +1,14 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  background-color: black;
-  color: aliceblue;
+  background-color: black;  
+  text-align: center;
 }
 
 .container {
   display: flex;  
   justify-content: space-between;
+  gap: 52px;
+  background-color: antiquewhite;
 }
 
 img {
@@ -18,11 +20,12 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 32px;  
+  color: aliceblue;
 }
 
-div .primera {
-  display: flex;
-  flex-wrap: wrap;
+.center {
+  max-width: 200px;
 }
 
 /* do not edit this footer */
@@ -35,5 +38,6 @@ div .primera {
   height: 52px;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
+  color: aliceblue;
 }
